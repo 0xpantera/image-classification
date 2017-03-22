@@ -1,4 +1,4 @@
-# ignore all pickle files
+# ignore all batches files
 cifar-10-batches-py/batches.meta
 cifar-10-batches-py/data_batch_1
 cifar-10-batches-py/data_batch_2
@@ -7,8 +7,19 @@ cifar-10-batches-py/data_batch_4
 cifar-10-batches-py/data_batch_5
 cifar-10-batches-py/readme.html
 cifar-10-batches-py/test_batch
+
 # ignore pycache
 __pycache__
 
 # Ignore dataset tar.gz
 cifar-10-python.tar.gz
+
+# ignore all pickle files
+preprocess_batch_1.p
+preprocess_batch_2.p
+preprocess_batch_3.p
+preprocess_batch_4.p
+preprocess_batch_5.p
+preprocess_training.p
+preprocess_validation.p
+problem_unittests.py
